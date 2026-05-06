@@ -42,7 +42,18 @@ _MODELS: dict[str, dict[str, Model]] = {
             input=["text", "image"],
             context_window=128_000,
             max_tokens=16_384,
-        )
+        ),
+        "deepseek-v4-pro": Model(
+            id="deepseek-v4-pro",
+            name="DeepSeek V4 Pro",
+            api="openai-standard",
+            provider="openai-standard",
+            base_url="https://api.deepseek.com/v1",
+            reasoning=True,
+            input=["text", "image"],
+            context_window=200_000,
+            max_tokens=8192,
+        ),
     },
 }
 

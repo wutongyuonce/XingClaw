@@ -51,7 +51,7 @@ done
 # 确保已安装（开发模式）
 if ! pip show xingclaw &>/dev/null; then
     echo "[dev] Installing xingclaw in editable mode ..."
-    pip install -e ".[dev]"
+    uv pip install -e ".[dev]"
 fi
 
 if [ "$MODE" = "im" ]; then

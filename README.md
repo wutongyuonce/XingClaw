@@ -1,3 +1,7 @@
+飞书应用App ID: cli_a9732a0360f8dcde
+
+App Secret: YyJPCugi8WXrxnsL51HJFe3WMFCaNz0U
+
 # XingClaw
 
 > 统一 LLM 调用 + Agent 编排内核 + 飞书 IM 桥接 —— 用 Python 从零搭建一个完整的 AI 编程助手系统。
